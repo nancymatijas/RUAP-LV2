@@ -19,6 +19,7 @@ namespace ContactManager.Controllers
         }
 
         public Contact[] Get()
+        
         {
             return contactRepository.GetAllContacts();
         }
